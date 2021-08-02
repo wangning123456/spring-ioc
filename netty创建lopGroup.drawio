@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T02:59:28.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.8.6" etag="3LF_Sjc3d-AfldoK28TN" type="github"><diagram id="sQ2_xOrIo2J5PskeF1wW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-02T10:30:20.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="u6E8TdVYogsjsfi1MXmg" version="14.8.6" type="github">
+  <diagram id="sQ2_xOrIo2J5PskeF1wW" name="Page-1">
+    <mxGraphModel dx="1865" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YsIxtehuJK2VJVfdKalm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-1" target="YsIxtehuJK2VJVfdKalm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-1" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;new &lt;/span&gt;NioEventLoopGroup(&lt;span style=&quot;color: #6897bb&quot;&gt;1&lt;/span&gt;)&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-2" target="YsIxtehuJK2VJVfdKalm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-2" value="&lt;font color=&quot;#cc7832&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px&quot;&gt;super(&lt;/span&gt;&lt;/font&gt;nThreads == 0 ? DEFAULT_EVENT_LOOP_THREADS : nThreads)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-4" target="YsIxtehuJK2VJVfdKalm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-4" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;MultithreadEventLoopGroup&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="300" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-5" value="类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-4" target="YsIxtehuJK2VJVfdKalm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-8" target="YsIxtehuJK2VJVfdKalm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-8" value="&lt;span style=&quot;background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;MultithreadEventExecutorGroup.&lt;br&gt;&lt;/span&gt;MultithreadEventExecutorGroup（）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-10" value="调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-11" target="YsIxtehuJK2VJVfdKalm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-11" value="for (int i = 0; i &amp;lt; nThreads; i ++){&lt;br&gt;children[i] = newChild(executor, args);&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="280" width="183" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-13" value="创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-14" target="YsIxtehuJK2VJVfdKalm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-14" value="&lt;div&gt;NioEventLoopGroup.newChild(&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;&lt;div&gt;new NioEventLoop)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-16" target="YsIxtehuJK2VJVfdKalm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-16" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;NioEventLoop.&lt;/span&gt;NioEventLoop&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YsIxtehuJK2VJVfdKalm-19" target="YsIxtehuJK2VJVfdKalm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-19" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;newTaskQueue&lt;/span&gt;(&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="410" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;openSelector()&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1462.5" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-22" value="常见队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-23" value="创建选择器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-25" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsIxtehuJK2VJVfdKalm-32" value="通过构造函数创建" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
